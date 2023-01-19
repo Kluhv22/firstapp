@@ -1,6 +1,51 @@
 .App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.addTask {
+  height: 30vh;
+  background-color: darkmagenta;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 75px;
+  flex-direction: column;
+}
+
+.task {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.task button {
+  width: 25px;
+  height: 20px;
+  margin-left: 20px;
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -24,15 +69,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  text-align: left;
 }
